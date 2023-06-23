@@ -25,6 +25,7 @@ public class WorldSettings : MonoBehaviour
     public float _tileSize;
     public static float tileSize;
 
+    ///Applying all the static world settings values
     public void Start()
     {
         drawDistance = _drawDistance;
